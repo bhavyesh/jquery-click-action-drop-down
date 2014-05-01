@@ -1,7 +1,7 @@
 $(function () {
     
  $('.dropdown').hide();
-    
+ 
     var ddshow = function(event)
     {
         var target = $(event.target);
