@@ -1,0 +1,58 @@
+.nav{margin:20px auto;}
+
+.nav ul
+{
+	position:relative;
+	padding:0;
+}
+
+.nav ul li 
+{
+	position:relative;
+	list-style:none;
+	cursor:pointer;
+	width:280px;
+	float:left;
+}
+
+.nav ul li ul 
+{
+	position:absolute;
+	left:0;
+	right:0;
+	z-index:10;
+}
+
+.nav ul .clicker
+{
+	position:relative;
+	background:#315584;
+	color:#FFF;
+}
+
+.nav ul .clicker:hover
+{background:#4679BD}
+
+.nav ul .active
+{background:#333}
+
+.nav ul li a, .nav ul li div, .nav ul li span
+{
+	transition:background-color 0.2s ease-in-out;
+	-o-transition:background-color 0.2s ease-in-out;
+	-ms-transition:background-color 0.2s ease-in-out;
+	-moz-transition:background-color 0.2s ease-in-out;
+	-webkit-transition:background-color 0.2s ease-in-out;
+	display:block;
+	padding:8px 10px 8px 10px;
+	background:#aaa;
+	color:#333;
+	text-decoration:none;
+	border-bottom:1px solid #888
+}
+
+.nav ul li a:hover, .nav ul li div:hover, .nav ul li span:hover
+{background:#ccc;}
+
+.nav ul li a:active, .nav ul li div:active, .nav ul li span:active
+{background:#aaa;}
